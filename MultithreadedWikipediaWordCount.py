@@ -12,7 +12,7 @@ nbb_of_pages_searched = 0
 
 limit = 1
 
-# Fat conclusion: This was a shit idea and is not practical what so ever 
+# Conclusion: This was a bad idea
 
 
 def wordCounter(html, word):
