@@ -2,8 +2,6 @@ from urllib.request import urlopen
 import random as r
 import webbrowser as wb
 
-url = "https://sv.wikipedia.org/wiki/Portal:Huvudsida"
-domain = "https://sv.wikipedia.org"
 decode = "utf-8"
 
 # Opens url
@@ -97,6 +95,3 @@ def getRandomWikipediaPage( start_url, domain ):
         
     
     return curr_url
-        
-# new_link = getRandomWikipediaPage( url, domain )
-#wb.open(new_link)
